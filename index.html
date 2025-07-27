@@ -9,25 +9,29 @@
 </head>
 <body>
 
-<section>
-<nab class="flex justify-between items-center w-[90%] mx-auto">
+<section class="bg-white py-4">
+  <nav class="flex flex-col md:flex-row justify-between items-center w-[90%] mx-auto gap-y-4">
+    
+    <!-- Logo -->
+    <div>
+      <img src="./image/We-Buy-properties-for-Cash.png" width="200" height="100" alt="We Buy Properties for Cash Logo" />
+    </div>
 
- <div>
-    <img src="./image/We-Buy-properties-for-Cash.png" width="200px" height="100px">
- </div>
+    <!-- First Menu -->
+    <ul class="flex flex-wrap gap-6 justify-center">
+      <li class="text-xl font-bold"><a href="#">How It Works</a></li>
+      <li class="text-xl font-bold"><a href="#">Reviews</a></li>
+      <li class="text-xl font-bold"><a href="#">About Us</a></li>
+    </ul>
 
- <ul class="flex gap-6">
-    <li class="text-xl font-bold"><a href="#">How It Works</a></li>
-    <li class="text-xl font-bold"><a href="#">Reviews</a></li>
-    <li class="text-xl font-bold"><a href="#">About Us</a></li>
-</ul>
+    <!-- Second Menu -->
+    <ul class="flex flex-wrap gap-6 justify-center">
+      <li class="text-xl font-bold"><a href="#">Call Us Now (855) 806-3337</a></li>
+      <li class="text-xl font-bold"><a href="#">FAQ</a></li>
+      <li class="text-xl font-bold"><a href="#">Contact Us</a></li>
+    </ul>
 
-<ul class="flex gap-6">
-        <li class="text-xl font-bold"><a href="#">Call Us Now(855) 806-3337</a></li>
-        <li class="text-xl font-bold"><a href="#">FAQ</a></li>
-        <li class="text-xl font-bold"><a href="#">Contact Us</a></li>
-</ul>
-</nab>
+  </nav>
 </section>
 
   <!-- Awesome Header Section -->
@@ -50,7 +54,7 @@
   </div>
 
   <!-- Floating Form (Overlapping Background Bottom) -->
-  <form class="absolute left-1/2 transform -translate-x-1/2 bottom-[-16px] w-full max-w-[600px] bg-white rounded-2xl shadow-xl p-6 z-20">
+  <form class="absolute left-1/2 transform -translate-x-1/2 bottom-[-62px] w-full max-w-[600px] bg-white rounded-2xl shadow-xl p-2 z-20 sm:bottom-[-62px] md:bottom-[-28px] lg:bottom-[-16px]">
     <input class="border border-gray-300 text-lg md:text-xl font-bold bg-white rounded-xl p-3 w-full text-center" type="text" placeholder="Enter Your Property Address" />
 
     <div class="flex flex-col md:flex-row gap-4 mt-4">
@@ -68,118 +72,179 @@
 
 <!-- My Websites First Section -->
  <section class="mt-20 w-[90%] mx-auto">
-    <main>
+    <main class="flex flex-col sm:flex-col md:flex-col lg:flex-col">
         <h3 class="text-4xl font-bold text-center">We Buy Commercial Properties</h3>
-        <p class="text-4xl font-bold text-center py-4">“Sell My Commercial Property Fast For Cash”</p>
+        <p class="text-2xl font-bold text-center py-4 sm:text-2xl md:text-4xl lg:text-4xl">“Sell My Commercial Property Fast For Cash”</p>
         <p class="text-xl text-center font-bold">Have a commercial property in the US that you need to sell fast?</p>
     </main>
  </section>
  <hr class="border-2 border-[#E87211] mt-4 w-[95%] mx-auto border-md rounded-xl">
 
 <!-- My Websites 2nd Section -->
- <section class="w-95% mx-auto mt-6 h-[500px]">
- 
-   <p class="text-center text-xl">Whether it is commercial property, a rental house, an apartment building, industrial, or commercial land, we can buy the US commercial properties with fast cash offers!</p>
 
+ <section class="mt-10">
 
-   <div class="flex justify-end flex-row items-center h-[400px] gap-4 mx-auto w-[95%]">
-    <p class="flex-1 text-xl">Commercial real estate investments can be a lucrative business. Still, there may come a time when you’ll need a way to sell your commercial property fast. Maybe you’re planning to use the equity to buy more commercial properties in the US. Or, perhaps you’re just tired of the stress that comes with owning and running a rental property and want to sell as fast as possible.</p>
+  <!-- Intro Paragraph -->
+  <p class="text-2xl w-[95%] mx-auto">
+    Whether it is commercial property, a rental house, an apartment building, industrial, or commercial land, we can buy US commercial properties with fast cash offers!
+  </p>
 
-<div class="flex-1">
-<iframe class="w-[95%] h-[300px] mx-auto rounded-xl border-2 ml-8" src="https://www.youtube.com/embed/2NV_dVRvuIw?si=PKJALk9gsRPR61Kr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+  <!-- Content Row -->
+  <div class="flex flex-col md:flex-row items-center w-[95%] mx-auto mt-10 gap-6">
+    
+    <!-- Text Column -->
+    <div class="flex-1">
+      <p class="text-2xl">
+        Commercial real estate investments can be a lucrative business. Still, there may come a time when you’ll need a way to sell your commercial property fast. Maybe you’re planning to use the equity to buy more commercial properties in the US. Or, perhaps you’re just tired of the stress that comes with owning and running a rental property and want to sell as fast as possible.
+      </p>
+    </div>
 
-</div>
-<div class="mx-auto w-[95%] text-xl">
-   <p>Your reason for selling doesn’t affect our reason for buying. You just want a fast and simple solution to sell. As commercial property buyers in the US, we want to hear more about your property and we will make you a fair cash offer today!</p>
- </div>
+    <!-- Video Column -->
+    <div class="flex-1 w-full">
+      <iframe 
+        class="w-full h-[400px] mx-auto rounded-xl border-2" 
+        src="https://www.youtube.com/embed/2NV_dVRvuIw?si=PKJALk9gsRPR61Kr" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+  </div>
+
+  <!-- Closing Paragraph -->
+  <div class="w-[95%] mx-auto text-2xl mt-10">
+    <p>
+      Your reason for selling doesn’t affect our reason for buying. You just want a fast and simple solution to sell. As commercial property buyers in the US, we want to hear more about your property and we will make you a fair cash offer today!
+    </p>
+  </div>
+
 </section>
 
 <!-- My Websites 3rd Section -->
 
 <section class="w-[85%] mx-auto py-10">
-    <div class="flex justify-between items-center">
+    <div class="flex justify-between items-center flex-col md:flex-row lg:flex-row gap-8">
         <img class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 " src="./image/google.png" width="200px" height="120px">
 
-        <button class="text-center font-bold border-1 h-[50px] p-4 rounded-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-[#af601a]"
-        >View TestMonial</button>
+        <button class="text-center font-bold border-1 h-[50px] p-4 rounded-xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-[#af601a] bg-[#F54927]"> View TestMonial</button>
 
         <img class="transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" src="./image/facebook.review.png" width="200px" height="120px">
     </div>
 </section>
 
 <!-- My Websites 4th Section -->
+
  <section class="bg-[#233A59]">
-    <div class="w-[95%] mx-auto mt-6 h-[800px]">
-        <h3 class="text-4xl font-bold text-center text-[#FFFFFF] py-10">How Do I Sell My Commercial Property Fast For Cash</h3>
-        <hr class="border-2 mx-auto border-[#af601a]">
-        <p class="text-xl py-6 text-[#FFFFFF] mx-auto">There’s a simple, three-step process to sell your commercial property fast for cash without it costing you more than a few minutes. Start by completing our short form or give us a call. Within 24 hours, we’ll present the bid to buy with cash.</p>
+  <div class="w-full mt-6 md:w-[95%] lg:w-[95%] mx-auto h-auto">
+    <h3 class="text-4xl font-bold text-center text-white py-10 w-[95%] mx-auto">
+      How Do I Sell My Commercial Property Fast For Cash
+    </h3>
+    <hr class="border-2 w-[90%] mx-auto border-[#af601a]" />
 
-        <div class=" flex gap-12 mt-4 items-center">
-        <div class="bg-[#FFFFFF] rounded-xl">
-            <p class="text-[#FFFFFF] bg-[#33749D] text-2xl font-bold text-center p-6 rounded-2xl">Steps-1</p>
-            <p class="text-[#af601a] text-2xl text-center font-bold py-6">Contact Us</p>
-            <img class="w-[100px] mx-auto mt-4" src="./image/1.png">
-            <p class=" text-center text-xl p-8">Give us details about the commercial property you want to sell. We’ll immediately start analyzing your property’s value.</p>
-        </div>
+    <p class="text-xl py-6 text-white w-[95%] mx-auto text-center">
+      There’s a simple, three-step process to sell your commercial property fast for cash without it costing you more than a few minutes. Start by completing our short form or give us a call. Within 24 hours, we’ll present the bid to buy with cash.
+    </p>
 
-        <img class="w-[50px] h-[50px] items-center" src="./image/4.png">
+    <div class="grid grid-cols-1 md:flex md:justify-between gap-8 mt-6 w-full md:w-[95%] mx-auto items-center">
+      
+      <!-- Step 1 -->
+      <div class="bg-white rounded-xl w-full h-auto mb-6 lg:h-[580px]">
+        <p class="text-white bg-[#33749D] text-2xl font-bold text-center p-6 rounded-t-xl">Step 1</p>
+        <p class="text-[#af601a] text-2xl text-center font-bold py-4">Contact Us</p>
+        <img class="w-[100px] mx-auto mt-4" src="./image/1.png" alt="Contact Step" />
+        <p class="text-center text-xl p-6 mt-6">
+          Give us details about the commercial property you want to sell. We’ll immediately start analyzing your property’s value.
+        </p>
+      </div>
 
-        <div class="bg-[#FFFFFF] rounded-xl">
-            <p class="text-[#FFFFFF] bg-[#33749D] text-2xl font-bold text-center p-6 rounded-2xl">Steps-1</p>
-            <p class="text-[#af601a] text-2xl text-center font-bold py-6">Contact Us</p>
-            <img class="w-[100px] mx-auto mt-4" src="./image/1.png">
-            <p class=" text-center text-xl p-8">Give us details about the commercial property you want to sell. We’ll immediately start analyzing your property’s value.</p>
-        </div>
+      <img class="w-[50px] h-[50px] mx-auto md:mx-0" src="./image/4.png" alt="Arrow" />
 
-        <img class="w-[50px] h-[50px] items-center" src="./image/4.png">
+      <!-- Step 2 -->
+      <div class="bg-white rounded-xl w-full h-auto lg:h-[580px] ">
+        <p class="text-white bg-[#33749D] text-2xl font-bold text-center p-6 rounded-t-xl">Step 2</p>
+        <p class="text-[#af601a] text-2xl text-center font-bold py-4">Get a Cash Offer</p>
+        <img class="w-[100px] mx-auto mt-4" src="./image/2.png" alt="Cash Offer" />
+        <p class="text-center text-xl p-6 mt-8">
+          We’ll send you a competitive, no-obligation cash offer for your commercial property within 24 hours.
+        </p>
+      </div>
 
-        <div class="bg-[#FFFFFF] rounded-xl">
-            <p class="text-[#FFFFFF] bg-[#33749D] text-2xl font-bold text-center p-6 rounded-2xl">Steps-1</p>
-            <p class="text-[#af601a] text-2xl text-center font-bold py-6">Contact Us</p>
-            <img class="w-[100px] mx-auto mt-4" src="./image/1.png">
-            <p class=" text-center text-xl p-8">Give us details about the commercial property you want to sell. We’ll immediately start analyzing your property’s value.</p>
-        </div>
+      <img class="w-[50px] h-[50px] mx-auto md:mx-0" src="./image/4.png" alt="Arrow" />
 
-        </div>
+      <!-- Step 3 -->
+      <div class="bg-white rounded-xl w-full h-auto lg:h-[580px] ">
+        <p class="text-white bg-[#33749D] text-2xl font-bold text-center p-6 rounded-t-xl">Step 3</p>
+        <p class="text-[#af601a] text-2xl text-center font-bold py-4">Close & Get Paid</p>
+        <img class="w-[100px] mx-auto mt-4" src="./image/3.png" alt="Get Paid" />
+        <p class="text-center text-xl p-6 mt-6">
+          Choose your closing date, sign a few documents, and get paid in cash. It’s that simple.
+        </p>
+      </div>
+
     </div>
- </section>
+  </div>
+</section>
 
  <!-- My Websites 5th Section -->
-  <section class=" mx-auto w-full h-[900px]">
-    <div class="flex gap-8">
+  <section class="w-full mt-10">
+  <div class="flex flex-col md:flex-row lg:flex-row gap-8 w-[95%] mx-auto">
 
-    <div class="w-[40%]">
-    <img class="flex-1" src="./image/5.jpeg">
+    <!-- Left Image -->
+    <div class="w-full md:w-[40%]">
+      <img src="./image/5.jpeg" alt="Commercial Property" class="w-full rounded-xl" />
     </div>
 
-    <div class="flex-1">
-    <p class="text-4xl font-bold mt-6">Commercial Property Buyers</p>
-    <hr class="border-t-2 mt-6">
-    <p class="py-4 text-xl">If you want to sell your commercial property fast for cash, you’ve come to the right place. Commercial Property Offer is a trusted local buyer in the US. We provide a simple process to buy your commercial property for any reason, in any condition.</p>
+    <!-- Content Section -->
+    <div class="flex-1 flex flex-col">
 
-    <div class="flex items-center gap-4 text-xl">
-        <img src="./image/6.png">
-        <p>Our goal is to ease the stress of selling by helping you walk away from the property you no longer want. Save time and costs when you sell to Commercial Property Offer.</p>
-    </div>
-    <p class="text-xl py-6">Start the process of selling today by filling out the form below if you’re serious about letting us buy your office building, rental house, or other commercial property. We get the building. You sell and get the fast cash!</p>
-    <p class="text-xl">Skip the real estate agent. We pay cash for all commercial properties.</p>
+      <!-- Headline -->
+      <p class="text-4xl font-bold mt-6">Commercial Property Buyers</p>
+      <hr class="border-t-2 border-[#af601a] mt-4 w-full" />
 
-    <form class="mt-8">
-        <div class="w-[70%] mx-auto h-[250px] bg-[#E6E9EB] p-6 rounded-xl ">
-            <input class="text-xl text-center border-1 rounded-sm w-full bg-[#FFFFFF]" type="text" placeholder="Enter Your Property Address"><br> <br>
-            <input class="text-xl text-center border-1 rounded-sm w-[48%] bg-[#FFFFFF]" type="number" placeholder=" Your Phone Number">
-            <input class="text-xl text-center border-1 rounded-sm w-[48%] bg-[#FFFFFF] ml-2" type="email" placeholder="Enter Your Email">
-            <p class="text-2xl font-bold text-center border-1 p-4 mt-6 bg-[#af601a] text-[#FFFFFF] rounded-xl">Get My Cash Offer</p>
+      <!-- Description -->
+      <p class="py-4 text-xl">
+        If you want to sell your commercial property fast for cash, you’ve come to the right place. Commercial Property Offer is a trusted local buyer in the US. We provide a simple process to buy your commercial property for any reason, in any condition.
+      </p>
+
+      <!-- Icon Row -->
+      <div class="flex flex-col md:flex-row items-center gap-4 text-xl">
+        <img src="./image/6.png" alt="Stress Free Icon" class="w-[80px]" />
+        <p>
+          Our goal is to ease the stress of selling by helping you walk away from the property you no longer want. Save time and costs when you sell to Commercial Property Offer.
+        </p>
+      </div>
+
+      <!-- More Info -->
+      <p class="text-xl py-6">
+        Start the process of selling today by filling out the form below if you’re serious about letting us buy your office building, rental house, or other commercial property. We get the building. You sell and get the fast cash!
+      </p>
+      <p class="text-xl">
+        Skip the real estate agent. We pay cash for all commercial properties.
+      </p>
+
+      <!-- Form -->
+      <form class="mt-8">
+        <div class="w-full md:w-[70%] bg-[#E6E9EB] p-6 rounded-xl mx-auto">
+          <input class="text-xl text-center border rounded-md w-full bg-white p-2" type="text" placeholder="Enter Your Property Address" /><br /><br />
+          <div class="flex flex-col sm:flex-row gap-4">
+            <input class="text-xl text-center border rounded-md bg-white p-2 w-full sm:w-[48%]" type="number" placeholder="Your Phone Number" />
+            <input class="text-xl text-center border rounded-md bg-white p-2 w-full sm:w-[48%]" type="email" placeholder="Enter Your Email" />
+          </div>
+          <p class="text-2xl font-bold text-center p-4 mt-6 bg-[#af601a] text-white rounded-xl cursor-pointer">
+            Get My Cash Offer
+          </p>
         </div>
-    </form>
-    </div>
+      </form>
 
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- My Websites 6 Section -->
-   <section class="w-[95%] mx-auto">
+   <section class="w-[95%] mx-auto mt-10">
     <div>
         <p class="text-4xl text-center font-bold ">We Buy Commercial Property In All Situations</p>
         <hr class="border-2 w-[95%] border-[#af601a] mt-6">
@@ -228,56 +293,134 @@
    </section>
 
      <!-- My Websites 7 Section -->
-      <section class=" bg-[#233A59]">
-        <div class="mt-8 w-[95%] mx-auto">
-            <h3 class="text-4xl text-center font-bold py-8 text-[#FFFFFF]">Advantage Of A Company That Buys Commercial Properties</h3>
-            <hr class="border-2 w-[95%] border-[#af601a] mt-6">
-            <p class="text-xl py-6 text-[#FFFFFF]">Rather than spending time on Google looking for information about a realtor who offers a fast way for you to sell, come to us. With us, you avoid the hassles, expenses, and waiting for a traditional sale. Our cash for Commercial Property Offering doesn’t require you to do anything more than tell us about your property before we buy.</p>
-            <p class="text-2xl text-center text-[#FFFFFF]">Simply complete the form on our website to request a quote for fast cash.</p>
+      <section class="bg-[#233A59] py-12">
+  <div class="w-[95%] mx-auto">
+    <h3 class="text-4xl text-center font-bold py-8 text-white">
+      Advantage Of A Company That Buys Commercial Properties
+    </h3>
+    <hr class="border-2 w-[95%] border-[#af601a] mx-auto mt-6" />
 
-    <form class="w-[700px] mt-10 mx-auto p-8">
-    <input class="border-1 text-xl font-bold bg-[#FFFFFF] rounded-xl p-2 w-full text-center" type="text" placeholder="Enter Your Property Address"> <br>
+    <p class="text-xl py-6 text-white">
+      Rather than spending time on Google looking for information about a realtor who offers a fast way for you to sell, come to us. With us, you avoid the hassles, expenses, and waiting for a traditional sale. Our cash for Commercial Property Offering doesn’t require you to do anything more than tell us about your property before we buy.
+    </p>
 
-    <input class="border-1 text-xl font-bold bg-[#FFFFFF] rounded-xl p-2 mt-4 w-[48%]" type="Phone" placeholder="Phone Number">
+    <p class="text-2xl text-center text-white">
+      Simply complete the form on our website to request a quote for fast cash.
+    </p>
 
-    <input class="border-1 text-xl font-bold bg-[#FFFFFF] rounded-xl p-2 w-[48%] ml-2" type="email" placeholder="Email">
-    <p class="text-center font-bold text-4xl p-4 bg-[#af601a] rounded-xl mt-6 text-[#FFFFFF]">Get My Cash Offer Now</p>
-</form>
-</div>
+    <!-- Contact Form -->
+    <form class="w-full max-w-[700px] mt-10 mx-auto p-8 bg-[#E6E9EB] rounded-xl">
+      <!-- Property Address -->
+      <input
+        class="border border-gray-300 text-xl font-bold bg-white rounded-xl p-3 w-full text-center focus:outline-none focus:ring-2 focus:ring-[#af601a]"
+        type="text"
+        name="address"
+        placeholder="Enter Your Property Address"
+        required
+      />
+
+      <!-- Phone and Email Group -->
+      <div class="flex flex-col md:flex-row gap-4 mt-4">
+        <input
+          class="border border-gray-300 text-xl font-bold bg-white rounded-xl p-3 w-full md:w-1/2 focus:outline-none focus:ring-2 focus:ring-[#af601a]"
+          type="tel"
+          name="phone"
+          placeholder="Phone Number"
+          required
+        />
+
+        <input
+          class="border border-gray-300 text-xl font-bold bg-white rounded-xl p-3 w-full md:w-1/2 focus:outline-none focus:ring-2 focus:ring-[#af601a]"
+          type="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
+      </div>
+
+      <!-- Submit Button -->
+      <button
+        type="submit"
+        class="w-full mt-6 bg-[#af601a] text-white text-2xl font-bold py-4 rounded-xl hover:bg-[#994d16] transition-colors"
+      >
+        Get My Cash Offer Now
+      </button>
+    </form>
+  </div>
 </section>
 
  <!-- My Websites 8 Section -->
-  <section class="">
-    <div class="flex gap-6 w-[95%] mx-auto">
-        <div class="flex-1">
-            <p class="text-4xl font-bold mt-6">We Buy Commercial <br> Properties For Cash</p>
-            <hr class="border-2 w-[95%] border-[#af601a] mt-6">
+  <section class="py-12 bg-white">
+  <div class="flex flex-col md:flex-row gap-6 w-[95%] mx-auto items-center">
+    
+    <!-- Text & Form Section -->
+    <div class="flex-1">
+      <p class="text-4xl font-bold mt-6">We Buy Commercial <br /> Properties For Cash</p>
+      <hr class="border-2 w-[95%] border-[#af601a] mt-6" />
 
-            <p class="text-2xl font-bold mt-10">No Repairs</p>
-            <p class="mt-4 text-xl">Selling through an agent means you’re on the hook for the disrepair of your commercial property that’s uncovered during an inspection. That doesn’t happen with us! We’ll cover the costly fixes after we buy your commercial property.</p>
+      <!-- No Repairs -->
+      <p class="text-2xl font-bold mt-10">No Repairs</p>
+      <p class="mt-4 text-xl">
+        Selling through an agent means you’re on the hook for the disrepair of your commercial property that’s uncovered during an inspection. That doesn’t happen with us! We’ll cover the costly fixes after we buy your commercial property.
+      </p>
 
-<p class="text-2xl font-bold mt-8">No Agents</p>
-<p class="mt-6 text-xl">With us, you get cash fast. With the traditional way, you must invest money and time before your commercial property is placed on the market for sale. Our cash offer program lets you sell to us without the stress of MLS agent listings.</p>
+      <!-- No Agents -->
+      <p class="text-2xl font-bold mt-8">No Agents</p>
+      <p class="mt-6 text-xl">
+        With us, you get cash fast. With the traditional way, you must invest money and time before your commercial property is placed on the market for sale. Our cash offer program lets you sell to us without the stress of MLS agent listings.
+      </p>
 
-<p class="text-2xl font-bold mt-10">No Fees</p>
-<p class="mt-4 text-xl">We don’t charge fees or commissions to buy your retail shops, homes, or other types of investment properties. All cash from the sale goes into your pocket. You don’t even have to pay the closing costs.</p>
+      <!-- No Fees -->
+      <p class="text-2xl font-bold mt-10">No Fees</p>
+      <p class="mt-4 text-xl">
+        We don’t charge fees or commissions to buy your retail shops, homes, or other types of investment properties. All cash from the sale goes into your pocket. You don’t even have to pay the closing costs.
+      </p>
 
+      <!-- Form -->
+      <form class="mt-8">
+        <div class="w-[90%] md:w-[80%] mx-auto bg-[#E6E9EB] p-6 rounded-xl">
+          <input
+            class="text-xl text-center border border-gray-300 rounded-md w-full bg-white p-3 mb-4"
+            type="text"
+            name="address"
+            placeholder="Enter Your Property Address"
+            required
+          />
 
-<form class="mt-8">
-        <div class="w-[80%] mx-auto h-[250px] bg-[#E6E9EB] p-6 rounded-xl ">
-            <input class="text-xl text-center border-1 rounded-sm w-full bg-[#FFFFFF]" type="text" placeholder="Enter Your Property Address"><br> <br>
-            <input class="text-xl text-center border-1 rounded-sm w-[48%] bg-[#FFFFFF]" type="number" placeholder=" Your Phone Number">
-            <input class="text-xl text-center border-1 rounded-sm w-[48%] bg-[#FFFFFF] ml-2" type="email" placeholder="Enter Your Email">
-            <p class="text-2xl font-bold text-center border-1 p-4 mt-6 bg-[#af601a] text-[#FFFFFF] rounded-xl">Get My Cash Offer</p>
+          <div class="flex flex-col md:flex-row gap-4">
+            <input
+              class="text-xl text-center border border-gray-300 rounded-md w-full md:w-1/2 bg-white p-3"
+              type="tel"
+              name="phone"
+              placeholder="Your Phone Number"
+              required
+            />
+
+            <input
+              class="text-xl text-center border border-gray-300 rounded-md w-full md:w-1/2 bg-white p-3"
+              type="email"
+              name="email"
+              placeholder="Enter Your Email"
+              required
+            />
+          </div>
+
+          <button
+            type="submit"
+            class="w-full text-2xl font-bold text-center py-4 mt-6 bg-[#af601a] text-white rounded-xl hover:bg-[#994d16] transition-colors"
+          >
+            Get My Cash Offer
+          </button>
         </div>
-    </form>
-        </div>
-
-        <div class="flex-1">
-            <img src="./image/13.jpg">
-        </div>
+      </form>
     </div>
-  </section>
+
+    <!-- Image Section -->
+    <div class="flex-1 mt-10 md:mt-0">
+      <img src="./image/13.jpg" alt="Commercial Property" class="rounded-xl w-full h-auto" />
+    </div>
+  </div>
+</section>
 
    <!-- My Websites 9 Section -->
 
@@ -333,135 +476,107 @@
       <!-- My Websites 10 Section -->
 
        <section class="w-full mt-10">
-        <div class="w-[95%] mx-auto mt-6">
-            <p class="text-4xl text-center font-bold">Where We Buy Commercial Properties</p>
-            <hr class="border-2 w-[95%] border-[#af601a] mt-6">
+  <div class="w-[95%] mx-auto">
+    <p class="text-4xl text-center font-bold">
+      Where We Buy Commercial Properties
+    </p>
+    <hr class="border-2 w-[95%] border-[#af601a] mt-6" />
 
+    <div class="flex flex-col md:flex-row gap-6 mt-8">
+      
+      <!-- Text Content -->
+      <div class="flex-1">
+        <p class="text-xl">
+          For years, agents were the only option for investors who needed to sell in the US. That meant listing the commercial property on the market after a valuation and inspection. Then, you could wait months or years for suitable buyers to secure the financing needed to buy your property.
+        </p>
 
-        <div class="w-[95%] mx-auto mt-8 flex gap-4">
+        <p class="py-6 text-xl">
+          Now, you can depend on Commercial Property Offer’s fast sale service for buying commercial properties all over the US.
+        </p>
 
-            <div class="w-70%">
-            <p class="text-xl">For years, agents were the only option for investors who needed to sell in the US. That meant listing the commercial property on the market after a valuation and inspection. Then, you could wait months or years for suitable buyers to secure the financing needed to buy your property.</p>
+        <p class="text-xl">
+          Our professional services fill the gap for sellers who want to avoid the traditional commercial property sales route. Whether you have an office park, mobile homes, or a building, we deliver a process for you to sell fast.
+        </p>
 
-            <p class="py-6 text-xl">Now, you can depend on Commercial Property Offer’s fast sale service for buying commercial properties all over the US. </p>
+        <p class="text-xl font-bold mt-4">
+          Call us 🤙 <span class="text-[#af601a]">(855) 806-3337</span>
+        </p>
+      </div>
 
-            <p class="text-xl">Our professional services fill the gap for sellers who want to avoid the traditional commercial property sales route. Whether you have an office park, mobile homes, or a building, we deliver a process for you to sell fast.</p>
-
-            <p class="text-xl font-bold mt-4">Call us 🤙<span class="text-[#af601a]">(855) 806-3337</span></p>
-            </div>
-
-
-            <div>
-            <iframe class="p-10" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58684.68175039847!2d89.10390484863278!3d23.177768199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff11e0000bfa13%3A0x804e69798b1127f0!2sNew%20Fashion%20Styel%20Influencer%2C%20Jessore!5e0!3m2!1sen!2sbd!4v1753210098241!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            </div>  
-            </div>
-       </section>
+      <!-- Google Map -->
+      <div class="flex-1">
+        <iframe
+          class="w-full h-[400px] rounded-xl shadow-md"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58684.68175039847!2d89.10390484863278!3d23.177768199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff11e0000bfa13%3A0x804e69798b1127f0!2sNew%20Fashion%20Styel%20Influencer%2C%20Jessore!5e0!3m2!1sen!2sbd!4v1753210098241!5m2!1sen!2sbd"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      
+    </div>
+  </div>
+</section>
 
  <!-- My Websites 11 Section -->
-<section class="w-full">
-    <div class="w-[95%] mx-auto mt-6 grid grid-cols-3 gap-8">
-        <div class="rounded-xl shadow-lg p-10">
-            <p class="text-sm font-bold text-center">Sell Apartment Complex Cash the US</p>
-            <ul class="list-disc list-inside text-center py-6">
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-            </ul>
-        </div>
-
-      <div class="rounded-xl shadow-lg p-10">
-            <p class="text-sm font-bold text-center">Sell Apartment Complex Cash the US</p>
-            <ul class="list-disc list-inside text-center py-6">
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-            </ul>
-        </div>
-
-
-        <div class="rounded-xl shadow-lg p-10">
-            <p class="text-sm font-bold text-center">Sell Apartment Complex Cash the US</p>
-            <ul class="list-disc list-inside text-center py-6">
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-            </ul>
-        </div>
-
-
-       <div class="rounded-xl shadow-lg p-10">
-            <p class="text-sm font-bold text-center">Sell Apartment Complex Cash the US</p>
-            <ul class="list-disc list-inside text-center py-6">
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-            </ul>
-        </div>
-
-        <div class="rounded-xl shadow-lg p-10">
-            <p class="text-sm font-bold text-center">Sell Apartment Complex Cash the US</p>
-            <ul class="list-disc list-inside text-center py-6">
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-            </ul>
-        </div>
-
-        <div class="rounded-xl shadow-lg p-10">
-            <p class="text-sm font-bold text-center">Sell Apartment Complex Cash the US</p>
-            <ul class="list-disc list-inside text-center py-6">
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-                <li>United States</li>
-            </ul>
-        </div>
-
-
+<section class="w-full mt-10">
+  <div class="w-[95%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <!-- Card Start -->
+    <div class="rounded-xl shadow-lg p-8 bg-white">
+      <p class="text-md font-bold text-center">Sell Apartment Complexes for Cash in the US</p>
+      <ul class="list-disc list-inside py-6 text-center text-sm text-gray-700">
+        <li>Los Angeles, CA</li>
+        <li>Houston, TX</li>
+        <li>Chicago, IL</li>
+        <li>Miami, FL</li>
+        <li>Phoenix, AZ</li>
+        <li>Philadelphia, PA</li>
+        <li>San Diego, CA</li>
+        <li>Dallas, TX</li>
+        <li>Atlanta, GA</li>
+        <li>Las Vegas, NV</li>
+      </ul>
     </div>
+    <!-- Card End -->
+
+    <!-- Repeat the same card structure with different city/state data -->
+    <div class="rounded-xl shadow-lg p-8 bg-white">
+      <p class="text-md font-bold text-center">Sell Apartment Complexes for Cash in the US</p>
+      <ul class="list-disc list-inside py-6 text-center text-sm text-gray-700">
+        <li>New York, NY</li>
+        <li>San Antonio, TX</li>
+        <li>San Jose, CA</li>
+        <li>Jacksonville, FL</li>
+        <li>Columbus, OH</li>
+        <li>Charlotte, NC</li>
+        <li>Indianapolis, IN</li>
+        <li>San Francisco, CA</li>
+        <li>Seattle, WA</li>
+        <li>Denver, CO</li>
+      </ul>
+    </div>
+
+<div class="rounded-xl shadow-lg p-8 bg-white">
+      <p class="text-md font-bold text-center">Sell Apartment Complexes for Cash in the US</p>
+      <ul class="list-disc list-inside py-6 text-center text-sm text-gray-700">
+        <li>New York, NY</li>
+        <li>San Antonio, TX</li>
+        <li>San Jose, CA</li>
+        <li>Jacksonville, FL</li>
+        <li>Columbus, OH</li>
+        <li>Charlotte, NC</li>
+        <li>Indianapolis, IN</li>
+        <li>San Francisco, CA</li>
+        <li>Seattle, WA</li>
+        <li>Denver, CO</li>
+      </ul>
+    </div>
+
+  </div>
 </section>
+
  <!-- My Websites 12 Section -->
 
  <section class="bg-[#233A59] mt-8">
@@ -499,44 +614,76 @@
             <p class="text-xl py-6 ">Rather than spending time on Google looking for information about a realtor who offers a fast way for you to sell, come to us. With us, you avoid the hassles, expenses, and waiting for a traditional sale. Our cash for Commercial Property Offering doesn’t require you to do anything more than tell us about your property before we buy.</p>
             <p class="text-2xl text-center ">Simply complete the form on our website to request a quote for fast cash.</p>
 
-    <form class="w-[700px] mt-10 mx-auto p-8 bg-[#E6E9EB] rounded-xl">
-    <input class="border-1 text-xl font-bold bg-[#FFFFFF] rounded-xl p-2 w-full text-center" type="text" placeholder="Enter Your Property Address"> <br>
+    <form class="w-full max-w-[700px] mt-10 mx-auto p-8 bg-[#E6E9EB] rounded-xl">
+  <!-- Address Field -->
+  <input
+    class="border border-gray-300 text-xl font-bold bg-white rounded-xl p-3 w-full text-center focus:outline-none focus:ring-2 focus:ring-[#af601a]"
+    type="text"
+    name="address"
+    placeholder="Enter Your Property Address"
+    required
+  />
 
-    <input class="border-1 text-xl font-bold bg-[#FFFFFF] rounded-xl p-2 mt-4 w-[48%]" type="Phone" placeholder="Phone Number">
+  <!-- Phone and Email Fields -->
+  <div class="flex flex-col md:flex-row gap-4 mt-4">
+    <input
+      class="border border-gray-300 text-xl font-bold bg-white rounded-xl p-3 w-full md:w-1/2 focus:outline-none focus:ring-2 focus:ring-[#af601a]"
+      type="tel"
+      name="phone"
+      placeholder="Phone Number"
+      required
+    />
 
-    <input class="border-1 text-xl font-bold bg-[#FFFFFF] rounded-xl p-2 w-[48%] ml-2" type="email" placeholder="Email">
-    <p class="text-center font-bold text-4xl p-4 bg-[#af601a] rounded-xl mt-6 text-[#FFFFFF]">Get My Cash Offer Now</p>
+    <input
+      class="border border-gray-300 text-xl font-bold bg-white rounded-xl p-3 w-full md:w-1/2 focus:outline-none focus:ring-2 focus:ring-[#af601a]"
+      type="email"
+      name="email"
+      placeholder="Email"
+      required
+    />
+  </div>
+
+  <!-- Submit Button -->
+  <button
+    type="submit"
+    class="w-full mt-6 bg-[#af601a] text-white text-2xl font-bold py-4 rounded-xl hover:bg-[#994d16] transition-colors"
+  >
+    Get My Cash Offer Now
+  </button>
 </form>
 </div>
 </section>
 
 <!-- My Websites Footer Section -->
 
-<footer class="w-full bg-[#060A10] h-[500px] mx-auto mt-10" style="clip-path:polygon(0 13%, 100% 0%, 100% 100%, 0% 100%);">
-<section class=" translate-y-24 flex gap-8 w-[95%] mx-auto items-center">
-<div class="flex-1">
-<p class="text-[#FFFFFF]">Selling a house or unwanted commercial property fast in the US? Commercial Property Offer buys all types including apartments, mixed-use properties, commercial land, mobile home parks, and more! We’re investor problem-solvers offering fast cash offers and hassle-free closings.</p>
-<p class="text-[#FFFFFF] py-6 text-xl">Address: Jessore, Berampur, Fun-Campas Mor</p>
-<p class="text-[#FFFFFF] text-xl">Phone: 01988-000000</p>
-</div>
-
-<div class="flex-1">
-    <div class="flex gap-6 justify-end">
-        <img class="bg-[#FFFFFF] w-[30px] h-[30px] rounded-4xl " src="./image/twitter.png">
-        <img class="bg-[#FFFFFF] w-[30px] h-[30px] rounded-4xl " src="./image/communication.png">
-        <img class="bg-[#FFFFFF] w-[30px] h-[30px] rounded-2xl" src="./image/instagram.png">
+<footer class="w-full bg-[#060A10] h-[550px] mt-10" style="clip-path: polygon(0 13%, 100% 0%, 100% 100%, 0% 100%);">
+  <section class="translate-y-24 flex flex-col md:flex-row gap-8 w-[95%] mx-auto items-start md:items-center">
+    
+    <!-- Left Section -->
+    <div class="flex-1">
+      <p class="text-white text-base leading-relaxed">
+        Selling a house or unwanted commercial property fast in the US? Commercial Property Offer buys all types including apartments, mixed-use properties, commercial land, mobile home parks, and more! We’re investor problem-solvers offering fast cash offers and hassle-free closings.
+      </p>
+      <p class="text-white py-4 text-lg">Address: Jessore, Berampur, Fun-Campus Mor</p>
+      <p class="text-white text-lg">Phone: 01988-000000</p>
     </div>
 
-    <div>
-    <p class="text-[#FFFFFF] text-end py-4">Privacy Policy</p>
-    <p class="text-[#FFFFFF] text-end">Contact Us</p>
-</div>
-</div>
-</section>
-</footer>
+    <!-- Right Section -->
+    <div class="flex-1 flex flex-col items-end justify-between py-10">
+      <div class="flex gap-4 mb-6">
+        <img src="./image/twitter.png" alt="Twitter" class="bg-white w-[30px] h-[30px] rounded-full" />
+        <img src="./image/communication.png" alt="Messenger" class="bg-white w-[30px] h-[30px] rounded-full" />
+        <img src="./image/instagram.png" alt="Instagram" class="bg-white w-[30px] h-[30px] rounded-full" />
+      </div>
 
-</div>
-</div>
+      <div class="md:text-right lg:text-right text-left">
+        <p class="text-white mb-2 cursor-pointer hover:underline">Privacy Policy</p>
+        <p class="text-white cursor-pointer hover:underline">Contact Us</p>
+      </div>
+    </div>
+
+  </section>
+</footer>
 
 </body>
 </html>
